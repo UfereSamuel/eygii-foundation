@@ -80,8 +80,8 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/eygii-website.git
-cd eygii-website
+git clone https://github.com/UfereSamuel/eygii-foundation.git
+cd eygii-foundation
 ```
 
 ### 2. Setup Local Environment
@@ -95,7 +95,7 @@ cd eygii-website
 2. **Move Project to Web Directory**
    ```bash
    # Copy project to XAMPP htdocs
-   cp -r eygii-website /Applications/XAMPP/xamppfiles/htdocs/eygii
+   cp -r eygii-foundation /Applications/XAMPP/xamppfiles/htdocs/eygii
    ```
 
 ### 3. Database Setup
