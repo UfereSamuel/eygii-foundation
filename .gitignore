@@ -1,0 +1,99 @@
+# EYGII Website - Git Ignore File
+
+# Sensitive Configuration Files
+config/database.php
+config/email.php
+.env
+.env.local
+.env.production
+
+# Logs and Debug Files
+logs/
+*.log
+error_log
+debug.log
+
+# Uploaded Files and User Content
+uploads/
+assets/images/uploads/
+assets/images/programs/uploaded/
+assets/images/news/uploaded/
+
+# Temporary Files
+tmp/
+temp/
+cache/
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# Backup Files
+*.bak
+*.backup
+*.sql.bak
+backup/
+backups/
+
+# Node.js (if using build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Composer (if using PHP dependencies)
+vendor/
+composer.lock
+
+# Database Dumps
+*.sql
+database_backup_*.sql
+dump.sql
+
+# Session Files
+sessions/
+*.sess
+
+# Error and Access Logs
+access.log
+error.log
+php_errors.log
+
+# Local Development Files
+local_config.php
+test_*.php
+debug_*.php
+
+# Documentation Build Files
+docs/_build/
+site/
+
+# Compressed Files
+*.zip
+*.tar.gz
+*.rar
+
+# Certificate Files
+*.pem
+*.key
+*.crt
+*.csr
+
+# Local Environment Variables
+.htaccess.local
+robots.txt.local 
